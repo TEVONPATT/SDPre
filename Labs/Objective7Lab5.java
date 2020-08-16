@@ -3,7 +3,6 @@ public class Objective7Lab5{
   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
     int selection;
-    //boolean bool;
     while (true) {
       System.out.println("___Menu___");
       System.out.println("1: Say Hello");
@@ -19,7 +18,6 @@ public class Objective7Lab5{
       }
       else if(selection == 3){
         System.out.println("Goodbye");
-        //bool = false;
         break;
       }
     }
