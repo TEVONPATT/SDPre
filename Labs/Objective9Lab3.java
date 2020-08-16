@@ -12,6 +12,9 @@ public class Objective9Lab3 {
       else if(selection == 2) {
         System.out.println("Pizza, California Burritos, Bananas");
       }
+      else if(selection > 3 || selection < 1) {
+        System.out.println("Invalid selection. Please try again.");
+      }
       else if(selection == 3) {
         System.out.println("Goodbye");
         break;
