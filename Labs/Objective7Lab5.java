@@ -16,6 +16,9 @@ public class Objective7Lab5{
       else if(selection == 2) {
         System.out.println("Apple, Banana, Coconut");
       }
+      else if(selection > 3 || selection < 1) {
+        System.out.println("Invalid selection. Please try again.");
+      }  
       else if(selection == 3){
         System.out.println("Goodbye");
         break;
